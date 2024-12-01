@@ -1,0 +1,66 @@
+#Python
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+#Virtual Environment
+venv/
+ENV/
+.env
+
+#IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings
+
+#Audio files
+*.wav
+*.mp3
+*.aac
+*.m4a
+*.ogg
+.flac
+data/test_results/
+!data/sample_audio/Weekly_Meeting_Example.wav  # Beispieldatei beibehalten
+
+#Notebooks
+.ipynb_checkpoints
+/.ipynb_checkpoints/
+
+#Logs und Datenbanken
+*.log
+*.sqlite
+
+#OS-specific
+.DS_Store  # Mac
+Thumbs.db  # Windows
+Desktop.ini
+*.directory  # Linux
+
+#Performance Test Results
+reports/
+test_results/
+*.prof
+*.stats

@@ -1,0 +1,20 @@
+#Hauptabhängigkeiten
+soundfile>=0.10.3
+noisereduce>=2.0.1
+scipy>=1.7.3
+pyloudnorm>=0.1.0
+numpy>=1.21.5
+psutil>=5.9.0
+#Audio-Processing
+librosa>=0.9.2
+pydub>=0.25.1
+#Entwicklungswerkzeuge
+pytest>=7.1.1python3 
+pytest-cov>=3.0.0
+black>=22.3.0
+flake8>=4.0.1
+#Jupyter Notebooks (optional)
+jupyter>=1.0.0
+matplotlib>=3.5.2
+seaborn>=0.11.2
+pandas>=1.4.2
